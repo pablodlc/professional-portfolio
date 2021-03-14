@@ -28,3 +28,7 @@ Continual updates as my knowledge and portfolio grows and improves.
 ## Technologies Used
 - HTML
 - CSS and Flexbox
+
+## Reference Material
+- *Run Buddy* for Flexbox reference, HTML structure, and Header set up
+- https://visme.co/blog/website-color-schemes/ for color scheme inspiration.
