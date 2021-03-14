@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 body {
     background-color: #2f2fa2;
@@ -64,9 +64,7 @@ header nav ul li {
 }
 
 
-
-                                                /* Hero Style */
-
+                                                /* Bio Section Style */
 main {
     padding: 20px 35px;
     display: flex;
@@ -98,5 +96,4 @@ main .bio-text h2 {
 
 .bio-text p {
     color: white;
-    
 }
