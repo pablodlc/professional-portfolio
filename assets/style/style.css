@@ -1,3 +1,9 @@
+/* save this color for shadow color: #553d67; */
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +11,7 @@
   }
 
 body {
-    color: #39a6b2;
+    background-color: #2f2fa2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -13,7 +19,7 @@ body {
                                             /* Header Style */
 header {
     padding: 20px 35px;
-    background-color: #b492a8;
+    background-color: #2f2fa2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,9 +27,8 @@ header {
 
 header a {
     text-decoration: none;
+    color: #f64c72;
 }
-
-
 
 header nav {
     display: flex;
@@ -32,6 +37,7 @@ header nav {
 }
 
 header h1 {
+    color: white;
     font-weight: bold;
     font-size: 36px;
     margin: 0;
@@ -43,28 +49,54 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    
 }
 
 header nav ul li {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 15px;
-   
 }
 
 header nav ul li {
-    text-decoration: none;
-    font-size: 24px;
-    color: black;
+    font-size: 20px;
 }
 
 
 
                                                 /* Hero Style */
+
+main {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .mug-shot {
+    flex: 1 5%;
+    margin-right: 20px;
+}
+
+main .bio-text {
+    flex: 2.5;
+}
+
 #mug {
     width: 300px;
     border-radius: 50%;
     padding: 10px;
+}
+
+main .bio-text h2 {
+    color: white;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.bio-text p {
+    color: white;
+    
 }
