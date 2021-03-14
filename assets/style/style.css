@@ -16,7 +16,7 @@ body {
 }
 
 
-                                            /* Header Style */
+                                        /* Header Style */
 header {
     padding: 20px 35px;
     background-color: #2f2fa2;
@@ -64,7 +64,7 @@ header nav ul li {
 }
 
 
-                                                /* Bio Section Style */
+                                        /* Bio Section Style */
 main {
     padding: 20px 35px;
     display: flex;
@@ -99,8 +99,19 @@ main .bio-text h2 {
 }
 
 
+                                        /* Portfolio section style */
+section .portfolio {
+    padding: 20px 35px;
+    display:flex;
+    flex-wrap: wrap;
+    color: white;
+}
 
-/* Contact section style */
+
+
+
+
+                                        /* Contact section style */
 section .contact {
     padding: 20px 35px;
     display: flex;
