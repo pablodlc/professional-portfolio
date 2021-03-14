@@ -32,3 +32,4 @@ Continual updates as my knowledge and portfolio grows and improves.
 ## Reference Material
 - *Run Buddy* for Flexbox reference, HTML structure, and Header set up
 - https://visme.co/blog/website-color-schemes/ for color scheme inspiration.
+- https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/ for how to open a link in a new tab and the noopener and norefferer `rel` code.

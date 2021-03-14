@@ -97,3 +97,24 @@ main .bio-text h2 {
 .bio-text p {
     color: white;
 }
+
+
+
+/* Contact section style */
+section .contact {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    flex: 2 10%;
+    color: white;
+}
+
+.contact-form {
+    flex: 3 15%;
+    color: white;
+}
