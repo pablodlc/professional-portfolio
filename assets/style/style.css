@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #2f2fa2;
+    background-color: #5d5c61;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -19,7 +19,7 @@ body {
                                         /* Header Style */
 header {
     padding: 20px 35px;
-    background-color: #2f2fa2;
+    background-color: #5d5c61;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #f64c72;
+    color: #7395ae;
 }
 
 header nav {
@@ -37,7 +37,7 @@ header nav {
 }
 
 header h1 {
-    color: white;
+    color: #7395ae;
     font-weight: bold;
     font-size: 36px;
     margin: 0;
@@ -89,25 +89,117 @@ main .bio-text {
 }
 
 main .bio-text h2 {
-    color: white;
+    color: #7395ae;
     text-align: center;
     padding-right: 10px;
 }
 
 .bio-text p {
-    color: white;
+    color: lightgray;
 }
 
 
                                         /* Portfolio section style */
-section .portfolio {
-    padding: 20px 35px;
-    display:flex;
-    flex-wrap: wrap;
-    color: white;
+section h2, p {
+    color: #7395ae;
 }
 
+section p {
+    color: lightgray;
+}
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    column-gap: 50px;
+    background-color: #b1a296;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio h3 {
+    color: gray;
+}
+
+.portfolio p {
+    color: lightgray;
+}
+
+#run-buddy {
+    width: 400px;
+}
+
+.run-buddy {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 401px;  
+}
+
+#ramones {
+    width: 250px;
+}
+
+.ramones {    
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#horiseon {
+    width: 250px;
+}
+
+.horiseon {    
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#seo {
+    color: #d9dcd6;
+}
+
+#watch-that-box {
+    width: 600px;
+}
+
+.watch-that-box {    
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.horiseon img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#style-this-page {
+    width: 250px;
+}
+
+.style-this-page {    
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.ramones, .watch-that-box, .style-this-page, .horiseon {
+    width: 251px;
+}
 
 
 
@@ -122,10 +214,10 @@ section .contact {
 
 .contact-info {
     flex: 2 10%;
-    color: white;
+    color: lightgray;
 }
 
 .contact-form {
     flex: 3 15%;
-    color: white;
+    color: lightgray;
 }
