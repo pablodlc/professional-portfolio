@@ -171,7 +171,7 @@ section p {
 }
 
 #watch-that-box {
-    width: 600px;
+    width: 752px;
 }
 
 .watch-that-box {    
@@ -179,6 +179,11 @@ section p {
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
+    width: 753px;
+}
+
+.watch-that-box h3 {
+    text-align: center;
 }
 
 .horiseon img {
