@@ -82,11 +82,26 @@ main .bio-text {
     flex: 2.5;
 }
 
-#mug {
+.mug-shot #mug, .img-top {
     width: 300px;
     border-radius: 50%;
-    border: 3px solid #5d5c61;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.mug-shot {
+    position: relative;
+    display: inline-block;
+}
+
+.mug-shot .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.mug-shot:hover .img-top {
+    display: inline;
 }
 
 .bio-text {
@@ -134,16 +149,36 @@ section p {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-    column-gap: 50px;
+    column-gap: 20px;
     background-color: #b1a296;
-    padding: 10px;
+    padding: 20px 0px 20px 20px;;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #5d5c61;
+    border-radius: 15px;
+}
+
+.portfolio{
+   margin-left: auto;
+   margin-right: auto
 }
 
 .portfolio-section {
-    padding: 20px 35px;
     display: flex;
     flex-wrap: wrap;
+    width: 752px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-text {
+    padding: 20px;
+    width:750px
+}
+
+.portfolio-text h2 {
+    text-align: center;
 }
 
 .portfolio h3 {
@@ -207,7 +242,7 @@ section p {
 }
 
 #watch-that-box {
-    width: 752px;
+    width: 675px;
 }
 
 .watch-that-box {    
@@ -215,7 +250,11 @@ section p {
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 2;
-    width: 753px;
+    width: 690px;
+}
+
+.wtb-text {
+    width: 680px;
 }
 
 .horiseon img {
