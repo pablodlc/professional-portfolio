@@ -157,6 +157,7 @@ section p {
     margin-right: auto;
     border: 3px solid #5d5c61;
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .portfolio{
