@@ -1,6 +1,9 @@
 /* save this color for shadow color: #553d67; */
-
-
+:root {
+    --primary-color: #7395ae;
+    --secondary-color: #5d5c61;
+    --tertiary-color: #b1a296;
+}
 
 
 
@@ -11,7 +14,7 @@
 }
 
 body {
-    background-color: #5d5c61;
+    background-color: var(--secondary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -19,7 +22,7 @@ body {
                                         /* Header Style */
 header {
     padding: 20px 35px;
-    background-color: #5d5c61;
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -27,7 +30,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #7395ae;
+    color: var(--primary-color);
 }
 
 header nav {
@@ -37,7 +40,7 @@ header nav {
 }
 
 header h1 {
-    color: #7395ae;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 36px;
     margin: 0;
@@ -73,16 +76,16 @@ main {
     align-items: center;
 }
 
-main .mug-shot {
+.mug-shot {
     flex: 1 5%;
     margin-right: 20px;
 }
 
-main .bio-text {
+.bio-text {
     flex: 2.5;
 }
 
-.mug-shot #mug, .img-top {
+ #mug, .img-top {
     width: 300px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -100,23 +103,21 @@ main .bio-text {
     left: 0;
     z-index: 99;
 }
+
 .mug-shot:hover .img-top {
     display: inline;
 }
 
 .bio-text {
-    border: 3px solid #5d5c61;
+    border: 3px solid var(--secondary-color);
     background-color: rgba(177,162,150, 0.8);
     padding: 10px;
     color: #2F4F4F;
     width: 40%;
-    margin: 0 0.1% 0.1% 0.1%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     border-radius: 15px;
     text-align: center;
 }
-
-
 
 .bio-text p {
     color: lightgray;
@@ -127,157 +128,112 @@ main .bio-text {
     background-image: url("../images/pool.jpg");
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
 }
 
 
-                                        /* Portfolio section style */
-section h2, p {
-    color: #7395ae;
+
+
+/* Portfolio section style */
+#my-work {
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 25px;
+    font-size: 30px;
 }
 
-section p {
+#portfolio-text {
+    width: 750px;
+    padding-bottom: 25px;
+    margin: 0 auto 25px auto;
     color: lightgray;
+    font-size: 20px;
+    justify-content: justify;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    column-gap: 20px;
-    background-color: #b1a296;
-    padding: 20px 0px 20px 20px;;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #5d5c61;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-}
-
-.portfolio{
-   margin-left: auto;
-   margin-right: auto
-}
-
-.portfolio-section {
+.watch-that-box {
     display: flex;
     flex-wrap: wrap;
-    width: 752px;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: column;
+    align-content: center;
+    border: 3px solid var(--secondary-color);
+    background-color: rgba(177,162,150, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
 }
 
-.portfolio-text {
-    padding: 20px;
-    width:750px
+.watch-that-box p {
+    width: 620px;
 }
 
-.portfolio-text h2 {
-    text-align: center;
-}
-
-.portfolio h3 {
-    text-align: center;
-}
-
-.portfolio h3 a:hover {
-    color: #7395ae;
-}
-
-.portfolio h3 a:active {
-    color: blue;
-}
-
-.portfolio p {
-    color: lightgray;
-    text-align: left;
-}
-
-.no-dec {
+.watch-that-box a, .flex-item a {
     text-decoration: none;
-    color: gray;
+    color: var(--secondary-color);
+    font-size: 25px;
 }
 
-#run-buddy {
+.watch-that-box h3, .flex-item h3 {
+    text-align: center;
+}
+
+.watch-that-box p, .flex-item p {
+    justify-content: justify;
+    color: lightgray;
+    margin: 0 auto;
+}
+
+.watch-that-box {
+    width: 800px;
+    margin: 0 auto 10px auto;
+}
+
+.watch-that-box a img {
+    margin: 0 auto;
+    padding: 10px 0 20px 0;  
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 3px solid var(--secondary-color);
+    background-color: rgba(177,162,150, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+    width: 35%;
+    align-content: center;
+}
+
+.flex-item p {
+    width: 390px;
+}
+
+.flex-item img {
+    margin-top: 10px;
+    margin-bottom: 25px;
+   
+}
+
+
+
+
+
+/* Styling four smaller images together */
+#run-buddy, 
+#ramones, 
+#horiseon,
+#style-this-page {
     width: 400px;
 }
-
-.run-buddy {
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    width: 401px;  
-}
-
-#ramones {
-    width: 250px;
-}
-
-.ramones {    
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-#horiseon {
-    width: 250px;
-}
-
-.horiseon {    
-    grid-row-start: 2;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-#seo {
-    color: #d9dcd6;
-}
-
-#watch-that-box {
-    width: 675px;
-}
-
-.watch-that-box {    
-    grid-row-start: 4;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    width: 690px;
-}
-
-.wtb-text {
-    width: 680px;
-}
-
-.horiseon img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#style-this-page {
-    width: 250px;
-}
-
-.style-this-page {    
-    grid-row-start: 3;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-.ramones, .watch-that-box, .style-this-page, .horiseon {
-    width: 251px;
-}
-
 
 
                                         /* Contact section style */
@@ -297,4 +253,14 @@ section .contact {
 .contact-form {
     flex: 3 15%;
     color: lightgray;
+}
+
+address a {
+    text-decoration: none;
+    color: lightgray;
+    text-align: center;
+}
+
+i {
+    font-size: 40px;
 }
