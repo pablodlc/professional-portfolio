@@ -1,7 +1,8 @@
 # professional-portfolio
 
 ## Description
-  
+A portfolio for the up-and-coming programmer pablodlc, written using the guidelines from the User Story and Acceptance Criteria below.
+
 ### User Story
 > AS AN employer  
 > I WANT to view a potential employee's deployed portfolio of work samples  
@@ -23,6 +24,15 @@
 >THEN I am presented with a responsive layout that adapts to my viewport
   
 ## Application
+Visit my portfolio by clicking [here](https://pablodlc.github.io/professional-portfolio/).  
+My portfolio contains a breif bio, a section called My Work that includes five pages I've wokred on, and a Contact Me section with links to my Github, LinkedIn, PayPal, and email.  
+Using Flexbox and Media queries, I designed my prtfolio to be responsive, targeting screen widths 1024px, 768px, 600px, and 480px.  
+Check out the screenshots of my site below.  In the interest of brevity, I included just my site at 480px and full size.  
+  
+![480px](./assets/images/screenshots/480px.jpg)  
+  
+![1536px](./assets/images/screenshots/1536px.jpg)
+
 <!-- Link to page
  Describe page by sections
 Include GIF of app -->
@@ -32,11 +42,11 @@ Continual updates as my knowledge and portfolio grows and improves.
 
 ## Technologies Used
 - HTML
-- CSS and Flexbox
+- CSS, to include Flexbox and Media Queries
 
 ## Reference Material
 - *Run Buddy* for Flexbox reference, HTML structure, and Header set up
 - https://visme.co/blog/website-color-schemes/ for color scheme inspiration.
-- https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/ for how to open a link in a new tab and the noopener and norefferer `rel` code.
+- https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/ for how to open a link in a new tab and the `noopener` and `norefferer` `rel` attributes.
 - fonts.google.com for fun fonts
 - https://www.w3schools.com/colors/colors_gradient.asp for fun gradients

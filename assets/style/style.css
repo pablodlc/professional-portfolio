@@ -1,11 +1,10 @@
 /* save this color for shadow color: #553d67; */
+/* Setting color scheme */
 :root {
     --primary-color: #7395ae;
     --secondary-color: #5d5c61;
     --tertiary-color: #b1a296;
 }
-
-
 
 * {
     margin: 0;
@@ -15,7 +14,6 @@
 
 body {
     background: linear-gradient(to bottom, #5d5c61 35%, #7395ae 59%);
-    font-family: Helvetica, Arial, sans-serif;
 }
 
 
@@ -69,7 +67,7 @@ header nav ul li:hover {
     font-family: 'Creepster', cursive;
     font-size: 48px;
 }
-                                        /* Header Style END */
+/* Header Style END */
 
 
                                         /* Bio Section Style */
@@ -148,9 +146,10 @@ main {
     background-attachment: fixed;
     background-position: 80%;
 }
+/* Bio Style End */
 
 
-/* Portfolio section style */
+                                        /* Portfolio section style */
 #my-work {
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -263,10 +262,9 @@ main {
     display: flex;
     width: 400px;
 }
-
+/* Portfolio Style End */
 
                                         /* Contact section style */
-
 section {
     display: flex;
     flex-wrap: wrap;
@@ -306,6 +304,7 @@ section .contact-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 10px;
 }
 
 .links a {
@@ -319,6 +318,8 @@ i {
     color: var(--primary-color);
     font-size: 40px;
 }
+/* Contact Style End */
+
 
                                         /* Footer Styling */
 footer {
@@ -351,6 +352,7 @@ footer h2 {
 }
 
 
+/* Media Query to target 786px screen size */
 @media screen and (max-width: 768px) {
     header h1 {
         margin-left: 18px;
@@ -382,6 +384,7 @@ footer h2 {
 }
 
 
+/* Media Query to target 600px screen size */
 @media screen and (max-width: 600px) {
 
     header {
@@ -438,6 +441,8 @@ footer h2 {
     }
 }
 
+
+/* Media Query to target 480px screen size */
 @media screen and (max-width: 480px) {
     
     header {
