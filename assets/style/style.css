@@ -374,7 +374,6 @@ footer h2 {
         flex-direction: column;
         width: 500px;
         margin-right: 20px;
-        
     }
 
     section p {
@@ -406,10 +405,9 @@ footer h2 {
     .bio-text {
         display: flex;
         flex-direction: column;
-        width: 500px;
-        margin-right: 20px;
-        
-    }
+        width: 425px;
+        margin-left: -20px;        
+}
 
     section {
         width: 600px;
@@ -426,7 +424,7 @@ footer h2 {
     }
 
     .watch-that-box p {
-        width: 490px;
+        width: 480px;
     }
 
     #watch-that-box {
@@ -449,11 +447,20 @@ footer h2 {
     header nav ul li {
         font-size: 30px
     }
+
+    .mug-shot {
+        margin-left: 20px;
+    }
     
-    .bio, .bio-text {
-        margin-left: -20px;
+    .bio {
+        width: 350px;
     }
 
+    .bio-text {
+        width:80%;
+        margin-right: 50px;
+    }
+   
     section {
         width: 480px;
     }
@@ -464,6 +471,9 @@ footer h2 {
         width: 425px;
     }
 
+    #about-me {
+        width: 425px;
+    }
    
     .bio-text {
         display: flex;
@@ -496,6 +506,3 @@ footer h2 {
         margin-left: -25px;
     }
 } 
-    
-    
-
