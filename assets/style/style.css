@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background: linear-gradient(to bottom, #5d5c61 35%, #7395ae 59%);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -22,10 +22,11 @@ body {
                                         /* Header Style */
 header {
     padding: 20px 35px;
-    background-color: var(--secondary-color);
+    background: linear-gradient(to bottom, #5d5c61 58%, #b1a296 103%);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Bangers', cursive;
 }
 
 header a {
@@ -42,7 +43,7 @@ header nav {
 header h1 {
     color: var(--primary-color);
     font-weight: bold;
-    font-size: 36px;
+    font-size: 48px;
     margin: 0;
 }
 
@@ -58,13 +59,11 @@ header nav ul {
 header nav ul li {
     display: flex;
     flex-wrap: wrap;
+    font-size: 36px;
     justify-content: center;
     margin: 0 15px;
 }
-
-header nav ul li {
-    font-size: 20px;
-}
+                                        /* Header Style END */
 
 
                                         /* Bio Section Style */
@@ -119,9 +118,16 @@ main {
     text-align: center;
 }
 
+.bio-text h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 32px;
+}
+
 .bio-text p {
+    font-family: 'Montserrat', sans-serif;
     color: lightgray;
     text-align: justify;
+    font-size: 20px;
 }
 
 .hero {
@@ -137,13 +143,16 @@ main {
 
 /* Portfolio section style */
 #my-work {
+    font-family: 'Bangers', cursive;
     text-align: center;
     color: var(--primary-color);
     padding-top: 25px;
-    font-size: 30px;
+    font-size: 32px;
 }
 
+
 #portfolio-text {
+    font-family: 'Montserrat', sans-serif;
     width: 750px;
     padding-bottom: 25px;
     margin: 0 auto 25px auto;
@@ -158,7 +167,7 @@ main {
     flex-direction: column;
     align-content: center;
     border: 3px solid var(--secondary-color);
-    background-color: rgba(177,162,150, 0.8);
+    background: linear-gradient(to bottom, #b1a296 25%, #5d5c61 81%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     border-radius: 15px;
 }
@@ -174,10 +183,14 @@ main {
 }
 
 .watch-that-box h3, .flex-item h3 {
+    font-family: 'Bangers', cursive;
     text-align: center;
+    font-size: 32px;
 }
 
 .watch-that-box p, .flex-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     justify-content: justify;
     color: lightgray;
     margin: 0 auto;
@@ -193,11 +206,12 @@ main {
     padding: 10px 0 20px 0;  
 }
 
-.flex-container {
+.flex-container-1, .flex-container-2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .flex-item {
@@ -205,11 +219,12 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     border: 3px solid var(--secondary-color);
-    background-color: rgba(177,162,150, 0.8);
+    background: linear-gradient(to bottom, #b1a296 25%, #5d5c61 81%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     border-radius: 15px;
-    margin: 10px 10px 10px 10px;
-    width: 35%;
+    margin: 10px 30px;
+    padding: 15px ;
+    flex-basis: auto;
     align-content: center;
 }
 
@@ -223,9 +238,10 @@ main {
    
 }
 
-
-
-
+/* © 2019 Horiseon Social Solution Services, Inc. */
+#seo {
+    color: #d9dcd6;
+}
 
 /* Styling four smaller images together */
 #run-buddy, 
@@ -237,30 +253,68 @@ main {
 
 
                                         /* Contact section style */
-section .contact {
-    padding: 20px 35px;
+
+section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 20px;
+}                                        
+
+section .contact-info {
+    padding: 20px 35px;
 }
 
 .contact-info {
-    flex: 2 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 3px solid var(--secondary-color);
+    background: linear-gradient(to bottom, #5d5c61 25%, #b1a296 81%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
     color: lightgray;
 }
 
-.contact-form {
-    flex: 3 15%;
-    color: lightgray;
+.contact-info p {
+    font-family: 'Montserrat', sans-serif;
 }
 
-address a {
+#contact-me {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 10px;
+    font-size: 32px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.links a {
     text-decoration: none;
     color: lightgray;
-    text-align: center;
+    padding: 0 20px;
+  
 }
 
 i {
+    color: var(--primary-color);
     font-size: 40px;
+}
+
+                                        /* Footer Styling */
+footer {
+    padding: 20px 0 20px 0;
+}
+
+footer h2 {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    color: lightgray;
+    font-size: 32px;
 }
