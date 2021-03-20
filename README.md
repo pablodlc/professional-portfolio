@@ -26,7 +26,7 @@ A portfolio for the up-and-coming programmer pablodlc, written using the guideli
 ## Application
 Visit my portfolio by clicking [here](https://pablodlc.github.io/professional-portfolio/).  
 My portfolio contains a breif bio, a section called My Work that includes five pages I've wokred on, and a Contact Me section with links to my Github, LinkedIn, PayPal, and email.  
-Using Flexbox and Media queries, I designed my prtfolio to be responsive, targeting screen widths 1024px, 768px, 600px, and 480px.  
+Using Flexbox and Media queries, I designed my portfolio to be responsive, targeting screen widths 1024px, 768px, 600px, and 480px.  
 Check out the screenshots of my site below.  In the interest of brevity, I included just my site at 480px and full size.  
   
 ![480px](./assets/images/screenshots/480px.jpg)  
